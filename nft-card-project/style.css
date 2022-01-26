@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Outfit','sans-serif'; 
+}
+
+
+
+
+
+
+.main-conteiner{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.nft-card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 31rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+    border-radius: 10px;
+
+}
+
+.nft-maintext-p{
+    font-size:1.5rem ;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1rem;
+}
+
+.image{
+  
+    border-radius: 2rem;
+    width: 100%;
+      
+}
+
+
+.test{
+   border-radius: 2rem;
+   width: 100%;
+   
+}
+
+.nft-title{
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+/* price time start */
+.price-time{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price-flex{
+    display: flex;
+    align-items: center;
+}
+
+.time-flex{
+    display: flex;
+    align-items: center;
+}
+
+.icon-eth{
+    height: 2rem;
+}
+
+.price-eth{
+    font-size:1.6rem ;
+    margin-left: 0.7rem;
+    margin-bottom: 0.5rem;
+    color: aqua;
+}
+
+.icon-clock{*
+    height: 2.3rem;
+    margin-right: 0.5rem;
+
+}
+
+.time-day{
+    font-size: 1.6rem;
+    color: hsl(215, 51%, 70%);
+    margin-bottom:0.5rem;
+    
+}
+
+
+/* price time finish */
+
+
+/* person section start */
+
+.line{
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%) ;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.creation{
+    margin-top: 1.6rem;
+}
+
+.person-text{
+    font-size: 1.7rem;
+    color: hsl(215, 51%, 70%);
+    margin-top: 0.6rem;
+}
+
+
+.avatar{
+    height: 4rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 1.1rem;
+}
+
+
+.creator{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color:white ;
+}
+
+.creator-link{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&family=Outfit:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif", "Inter";
+}
+
+.html{
+    font-size: 62.5%;
+
+}
+
+
+/* Main (Ana hatlar belirlendi) */
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   flex-direction: column;
+   padding: 2rem;
+   background-color:hsl(233, 47%, 7%) ;
+}
+/* main finish */
+
+
+/* card style start  göz at */
+
+
+.card{
+    max-width: 120rem;
+    background-color:hsl(244, 38%, 16%) ;   
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 44rem;
+   padding: 1rem;
+   
+    
+}
+/* HEADER STYLE  */
+.title-p{
+    font-size: 4rem;
+    color: white;
+    font-weight: 500;
+    margin: ;
+}
+
+.title-p-different{
+    color:hsl(277, 64%, 61%) ;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* TEXT STYLE */
+.text-p{
+    margin-top: 3rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8;
+    font-family:"Lexend Deca", "sans-serif"; 
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+/* Numbers flex */
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
+
+}
+
+
+.num-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* NUMBERS 1 ALL SETUP */
+
+
+.num-1-com-p{
+    font-size:2rem;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.num-1-cum-text-p{
+ font-size: 0.85rem;   
+ color: hsla(0, 0%, 100%, 0.6);
+ margin-top:0.04rem;
+}
+
+
+
+/* NUMBERS 2 ALL SETUP */
+
+.num-2-tem-p{
+    font-size:2rem;
+    color: white;
+    font-weight: 700;
+    
+}
+.num-2-tem-text-p{
+    font-size: 0.85rem;   
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top:0.04rem;
+   }
+
+
+
+/* NUMBERS 3 ALL SETUP */
+
+.num-3-QU-p{
+    font-size:2rem;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.num-3-QU-text-p{
+    font-size: 0.85rem;   
+ color: hsla(0, 0%, 100%, 0.6);
+ margin-top:0.04rem;
+
+}
+
+
+
+/* PHOTO */
+.image-box{
+    
+    
+}
+.img{
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+    filter: invert(48%) sepia(67%) saturate(2446%) hue-rotate(240deg) brightness(88%) contrast(94%) ;
+    height: 100%;
+}
+
+
+
+
+
+/* fınal */
+
+.creator{
+    margin-top: 1rem;
+}
+
+
+.creator-p{
+    color: white;
+
+    
+}
+
+
+
